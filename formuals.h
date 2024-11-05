@@ -24,6 +24,12 @@ public:
     int getS(){
         return S;
     }
+    void setH(int h) {
+        this->h = h;
+    }
+    int getH(){
+        return h;
+    }
 
 };
 
