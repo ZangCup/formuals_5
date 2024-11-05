@@ -15,6 +15,12 @@ signals:
 private slots:
     void formualsTest_null();
     void formualTest_one();
+    void formualTest_two();
+    void formualTest_3();
+    void formualTest_4();
+    void formualTest_5();
+
+
 
 };
 
