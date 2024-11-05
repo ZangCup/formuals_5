@@ -9,3 +9,7 @@ int formuals::getNum_C() {
 
     return this->c;
 }
+int formuals::formuals_num() {
+    this->S = this->c * this->h;
+    return S;
+}

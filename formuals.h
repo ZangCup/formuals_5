@@ -31,6 +31,8 @@ public:
         return h;
     }
     int getNum_C();
+
+    int formuals_num();
 };
 
 #endif // FORMUALS_H

@@ -19,6 +19,7 @@ private slots:
     void formualTest_3();
     void formualTest_4();
     void formualTest_5();
+    void formualTest_6();
 
 
 
