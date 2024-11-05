@@ -30,7 +30,7 @@ public:
     int getH(){
         return h;
     }
-
+    int getNum_C();
 };
 
 #endif // FORMUALS_H

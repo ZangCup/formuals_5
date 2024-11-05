@@ -30,6 +30,9 @@ void formualTest::formualTest_4(){
 }
 
 void formualTest::formualTest_5(){
-
+    formuals form;
+    form.setA(2);
+    form.setB(2);
+    QCOMPARE(2,form.getNum_C());
 }
  QTEST_MAIN(formualTest)
