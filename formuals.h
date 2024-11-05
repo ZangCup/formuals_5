@@ -15,7 +15,12 @@ public:
     int getA(){
         return a;
     }
-
+    void setB(int b) {
+        this->b = b;
+    }
+    int getB(){
+        return b;
+    }
 
 };
 

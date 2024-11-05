@@ -15,7 +15,9 @@ void formualTest::formualTest_one(){
     QCOMPARE(1,form.getA());
 }
 void formualTest::formualTest_two(){
-
+    formuals form;
+    form.setB(2);
+    QCOMPARE(2,form.getB());
 }
 void formualTest::formualTest_3(){
 
