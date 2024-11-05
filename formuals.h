@@ -21,11 +21,8 @@ public:
     int getB(){
         return b;
     }
-    void setC(int c) {
-        this->c = c;
-    }
-    int getC(){
-        return c;
+    int getS(){
+        return S;
     }
 
 };

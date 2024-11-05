@@ -21,10 +21,10 @@ void formualTest::formualTest_two(){
 }
 void formualTest::formualTest_3(){
     formuals form;
-    form.setC(3);
-    QCOMPARE(3,form.getC());
+    QCOMPARE(0,form.getS());
 }
 void formualTest::formualTest_4(){
+
 }
 
 void formualTest::formualTest_5(){
