@@ -6,7 +6,7 @@ formuals::formuals()
 }
 int formuals::getNum_C() {
     if(a <= 0 && b <= 0) {
-        this->iscon = false;
+        this->isDataOk = false;
     }
     this->c = (this->a + this->b) / 2;
 

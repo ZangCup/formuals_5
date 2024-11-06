@@ -48,14 +48,14 @@ void formualTest::formualTest_7() {
     formuals form;
     form.setA(-2);
     form.setB(-2);
-    QCOMPARE(false, form.getBOOL());
+    QCOMPARE(false, form.getDataOk());
 }
 
 void formualTest::formualTest_8() {
     formuals form;
     form.setA(2);
     form.setB(2);
-    QCOMPARE(true, form.getBOOL());
+    QCOMPARE(true, form.getDataOk());
 }
 
  QTEST_MAIN(formualTest)

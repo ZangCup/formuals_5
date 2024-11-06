@@ -6,13 +6,15 @@ class formuals
 {
 public:
     formuals();
+
 private:
     int a, b, c, S, h;
-     bool iscon = true;
+     bool isDataOk = true;
+
 public:
     void setA(int a) {
         this->a = a;
-        if (a <= 0) iscon = false;
+        if (a <= 0) isDataOk = false;
     }
 
     int getA(){
@@ -21,7 +23,7 @@ public:
 
     void setB(int b) {
         this->b = b;
-        if (b <= 0) iscon = false;
+        if (b <= 0) isDataOk = false;
     }
 
     int getB(){
@@ -37,15 +39,15 @@ public:
     }
 
     int getH(){
-        if(iscon == true)
         return h;
     }
 
     int getNum_C();
 
     int formuals_num();
-    bool getBOOL(){
-        return iscon;
+
+    bool getDataOk(){
+        return isDataOk;
     }
 
 };
