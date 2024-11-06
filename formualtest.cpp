@@ -9,38 +9,45 @@ void formualTest::formualsTest_null(){
 
     QVERIFY(&form != nullptr);
 }
-void formualTest::formualTest_one(){
+void formualTest::formualTest_one() {
     formuals form;
     form.setA(1);
-    QCOMPARE(1,form.getA());
+    QCOMPARE(1, form.getA());
 }
-void formualTest::formualTest_two(){
+void formualTest::formualTest_two() {
     formuals form;
     form.setB(2);
-    QCOMPARE(2,form.getB());
+    QCOMPARE(2, form.getB());
 }
-void formualTest::formualTest_3(){
+void formualTest::formualTest_3() {
     formuals form;
-    QCOMPARE(0,form.getS());
+    QCOMPARE(0, form.getS());
 }
-void formualTest::formualTest_4(){
+void formualTest::formualTest_4() {
     formuals form;
     form.setH(1);
-    QCOMPARE(1,form.getH());
+    QCOMPARE(1, form.getH());
 }
 
-void formualTest::formualTest_5(){
+void formualTest::formualTest_5() {
     formuals form;
     form.setA(2);
     form.setB(2);
-    QCOMPARE(2,form.getNum_C());
+    QCOMPARE(2, form.getNum_C());
 }
 
-void formualTest::formualTest_6(){
+void formualTest::formualTest_6() {
     formuals form;
     form.setA(2);
     form.setB(2);
     form.setH(2);
-    QCOMPARE(4,form.formuals_num());
+    QCOMPARE(4, form.formuals_num());
 }
+void formualTest::formualTest_7() {
+    formuals form;
+    form.setA(-2);
+    form.setB(-2);
+    QCOMPARE(false, form.getBOOL());
+}
+
  QTEST_MAIN(formualTest)

@@ -20,9 +20,7 @@ private slots:
     void formualTest_4();
     void formualTest_5();
     void formualTest_6();
-
-
-
+    void formualTest_7();
 };
 
 #endif // FORMUALTEST_H
