@@ -21,6 +21,7 @@ private slots:
     void formualTest_5();
     void formualTest_6();
     void formualTest_7();
+    void formualTest_8();
 };
 
 #endif // FORMUALTEST_H

@@ -12,6 +12,7 @@ private:
 public:
     void setA(int a) {
         this->a = a;
+        if (a <= 0) iscon = false;
     }
 
     int getA(){
@@ -20,6 +21,7 @@ public:
 
     void setB(int b) {
         this->b = b;
+        if (b <= 0) iscon = false;
     }
 
     int getB(){
@@ -35,6 +37,7 @@ public:
     }
 
     int getH(){
+        if(iscon == true)
         return h;
     }
 
